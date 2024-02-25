@@ -1,0 +1,66 @@
+.clock1,
+.stopwatch1,
+.timer1 {
+  position: relative;
+}
+
+.clock,
+.stopwatch,
+.timer {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color: inherit;
+  text-align: left;
+}
+
+.active {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-5xs);
+  background-color: var(--color-black);
+  width: 74px; /* Adjust as needed */
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar,
+.navigation,
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 300px;
+  max-width: 411px;
+}
+
+.navbar {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
